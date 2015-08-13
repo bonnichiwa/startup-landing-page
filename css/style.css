@@ -16,6 +16,9 @@ html {
 /* Navigation Section */
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 }
 
 .top-navigation > .content {
@@ -96,6 +99,30 @@ html {
 .big-button:hover {
   background-color: red;
   cursor: pointer;
+}
+
+/* Cases sections */
+.cases .content > h2 {
+  padding: 1em;
+  font-size: 2.5em;
+  text-align: center;
+  color: black;
+}
+
+.cases .devices > li {
+  width: 33%;
+  float: left;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 5rem 5rem;
+}
+
+.cases .devices h3 {
+  color: black;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 2.5rem 0px 1.875rem;
+  display: block;
 }
 /*
 ! normalize.css v3.0.2 | MIT License | git.io/normalize */
