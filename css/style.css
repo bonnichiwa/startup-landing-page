@@ -6,6 +6,12 @@ div {
   box-sizing: inherit;
 }
 
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #838994;
+  font-weight: 300;
+}
+
 html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
@@ -53,6 +59,30 @@ html {
   margin-top: 10px;
 }
 
+/* Background Section */
+
+.introduction {
+  background-image: url('../images/background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45.938rem;
+}
+
+.introduction .content > h1, h3 {
+  text-align: center;
+  color: white;
+}
+
+.introduction .content > h1 {
+  margin-top: 17.5rem;
+  font-size: 3.125rem;
+}
+
+.introduction .content > h3 {
+  margin-top: 1.25rem;
+  font-size: 1.563rem;
+}
 
 
 /*
