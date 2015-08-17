@@ -130,6 +130,7 @@ html {
   width: 33.3333333%;
   display: inline-block;
   margin-top: 5em;
+  min-width: 320px;
   max-width: 320px; 
 }
 
